@@ -1,0 +1,8 @@
+.button {
+  height: 50px;
+  border: 3px solid #efce4b;
+  box-sizing: border-box;
+  border-radius: 14px;
+  color: rgba(239, 206, 75, 1);
+  font-family: 'AlfaSlabOneRegular';
+}
