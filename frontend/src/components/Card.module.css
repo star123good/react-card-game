@@ -1,0 +1,28 @@
+.card {
+  width: 192px;
+  height: 264px;
+  border-radius: 24px;
+}
+.imgSmall {
+  top: 105px;
+  left: 37px;
+}
+.imgLarge {
+  top: 141px;
+  left: 71px;
+}
+@media only screen and (max-width: 1023px) {
+  .card {
+    width: 103px;
+    height: 141px;
+    border-radius: 10px;
+  }
+  .imgSmall {
+    top: 45px;
+    left: 20px;
+  }
+  .imgLarge {
+    top: 80px;
+    left: 40px;
+  }
+}

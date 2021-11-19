@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: 'AlfaSlabOneRegular';
+  src: local('AlfaSlabOne'), url(../assets/Alfa_Slab_One/AlfaSlabOne-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'CourierPrimeRegular';
+  src: local('CourierPrime'), url(../assets/Courier_Prime/CourierPrime-Regular.ttf) format('ttf');
+}
