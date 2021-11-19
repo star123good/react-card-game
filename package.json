@@ -33,6 +33,9 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json,md,css,scss}": [
       "prettier --write"
+    ],
+    "*.py": [
+      "./server/lint.sh"
     ]
   },
   "devDependencies": {
